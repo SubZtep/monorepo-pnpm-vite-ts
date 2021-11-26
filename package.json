@@ -1,0 +1,15 @@
+{
+  "name": "monorepo-pnpm-vite-ts",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm recursive run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}

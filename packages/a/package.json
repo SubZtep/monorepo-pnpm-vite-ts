@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo-pnpm-vite-ts/a",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "three": "^0.135.0"
+  }
+}

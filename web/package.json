@@ -1,0 +1,16 @@
+{
+  "name": "@depth/web",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@monorepo-pnpm-vite-ts/a": "workspace:*",
+    "@monorepo-pnpm-vite-ts/b": "workspace:*",
+    "three": "^0.135.0"
+  },
+  "devDependencies": {
+    "vite": "^2.6.14"
+  }
+}
